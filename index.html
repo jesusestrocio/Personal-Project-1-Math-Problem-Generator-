@@ -6,9 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Math Problem Generator </title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesMediaQueryTablet.css">
+    <link rel="stylesheet" href="stylesMediaQueryPhone.css">
+
   </head>
   <body>
       <h1>Math Problem Generator</h1>
-	<script src="index.js"></script>
+      <div class="arithmetic-operations-button-container">
+        <button class="addition">Addition</button>
+        <button class="subtraction">Subtraction</button>
+        <button class="multiplication">Multiplication</button>
+        <button class="division">Division</button>
+        </div>
+
+        <div class="pop-up-window" id="pop-up-window-id">
+          <h2 class="title-for-pop-up-form"></h2>
+          <form action="" class="pop-up-form-container">
+            <label><p class="no-of-digits-label">No of digits</p></label>
+            <input placeholder="No Of Digits" class="no-of-digits-input" required>
+        
+            <label><p class="no-of-problems-label">No of problems</p></label>
+            <input placeholder="No Of Problems" class="no-of-problems-input" required>
+        
+            <button type="button" class="generate-button">Generate</button>
+            <button type="button" class="close-button" onclick="closePopUpForm()">Close</button>
+          </form>
+        </div>
+
+        <div class="time-and-question-container" id="time-and-question-container-id">
+          <div class="timer-container">
+            <div class="stopwatch-container" id="sw" >
+              <div class="stopwatch-timer">00:00:00</div>
+              <button class="stopwatch-start-button" onclick="startStopwatch()">Start</button>
+              <button class="stopwatch-stop-button" onclick="stopStopwatch()">Stop</button>
+              <button class="stopwatch-reset-button" onclick="resetStopwatch()">Reset</button>
+              </div>
+          </div>
+          <div class="questions-main-container">
+
+          </div>
+          <div class="check-all-answers-button-container"><button class="check-all-answers-button">Check All</button></div>
+        </div>
+
+
+
+	<script src="scripts.js"></script>
   </body>
 </html>

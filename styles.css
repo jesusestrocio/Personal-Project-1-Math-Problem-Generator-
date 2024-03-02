@@ -1,0 +1,182 @@
+/* Styles Media Query For Desktop Low End 1024×768 & 1920×1080*/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.arithmetic-operations-button-container {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    flex-wrap: wrap; 
+}
+
+.addition, .subtraction, .multiplication, .division  {
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    margin: 5px;
+}
+
+.pop-up-window {
+    height: 230px;
+    width: 600px;
+    border: 2px;
+    border-style: solid;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -115px;
+    margin-left: -300px;
+
+
+    /* z-index: 9; */
+}
+
+h2.title-for-pop-up-form {
+    font-size: 35px;
+    margin: 5px;
+    text-align: center;
+}
+
+.pop-up-form-container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto  auto  auto;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+
+.no-of-digits-label, .no-of-problems-label {
+    font-size: 27px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 5.5px;
+    
+}
+
+.no-of-digits-input , .no-of-problems-input {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border: 0.2px;
+    border-style: solid;
+      
+}
+
+.generate-button, .close-button {
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.time-and-question-container{
+    background-color: salmon;
+}
+
+#time-and-question-container-id {
+    display: none;
+}
+
+.timer-container {
+    background-color: lightblue;
+    border: 2px solid;
+    padding: 10px;
+
+}
+
+.stopwatch-container{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch-timer {
+    font-size: 25px;
+
+}
+
+.stopwatch-start-button, 
+.stopwatch-stop-button, 
+.stopwatch-reset-button {
+    font-size: 20px;
+}
+
+
+/* <div class="time-and-question-container" id="time-and-question-container-id">
+<div class="timer-container">
+  <div class="stopwatch-container" id="sw" >
+    <div class="stopwatch-timer">00:00:00</div>
+    <button class="stopwatch-start-button" onclick="startStopwatch()">Start</button>
+    <button class="stopwatch-stop-button" onclick="stopStopwatch()">Stop</button>
+    <button class="stopwatch-reset-button" onclick="resetStopwatch()">Reset</button>
+    </div>
+</div>
+<div class="questions-main-container">
+
+</div>
+<div><button>Check All</button></div>
+</div> */
+
+.questions-main-container {
+    background-color: khaki;
+    border: 5px solid chartreuse;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 20px;
+    border: 2px solid #04AA6D;
+    justify-items: center;
+
+}
+
+.individual-question-container {
+    background-color: grey;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    height: auto;
+    width: 150px;
+    padding-top:30px ; 
+    padding-bottom: 30px;
+}
+
+.firstNumber, .secondNumber, .symbol {
+    background-color: aquamarine;
+    font-size: 20px;
+    text-align: center;
+}
+.userInputeSection , .userInputButtonSection {
+    background-color: green;    
+    display: flex;
+    justify-content: center;
+}
+
+.userInputValue, .userInputValidationButton {
+    height: 25px;
+    width: 100px;
+    background-color: brown;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.check-all-answers-button-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid forestgreen;
+    padding: 10px;
+}
+
+.check-all-answers-button {
+    font-size: 25px;
+}
