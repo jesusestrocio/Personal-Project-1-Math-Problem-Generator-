@@ -1,9 +1,13 @@
 function openPopUpForm() {
     document.getElementById("pop-up-window-id").style.display = "block";
+    // document.querySelector(".no-of-digits-input").value = ' ';
+    // document.querySelector(".no-of-problems-input").value = ' ';
   }
   
 function closePopUpForm() {
     document.getElementById("pop-up-window-id").style.display = "none";
+    document.querySelector(".no-of-digits-input").value = '';
+    document.querySelector(".no-of-problems-input").value = '';
   }
 
 const dynamicPopUpFormTitle = document.querySelector('.title-for-pop-up-form')
@@ -27,7 +31,9 @@ const divide = document.querySelector('.division');
         if (element == divide) {
             dynamicPopUpFormTitle.textContent = 'Division';
         }
+        hideTimerAndQuestionContainer()
         openPopUpForm()
+
     });
  });
 
@@ -63,6 +69,10 @@ const dictionaryOfProblemsGenerated = {};
 
 function showTimerAndQuestionContainer() {
   document.getElementById("time-and-question-container-id").style.display = "block";
+}
+
+function hideTimerAndQuestionContainer() {
+  document.getElementById("time-and-question-container-id").style.display = "none";
 }
 
 function generateQuestions(noOfDigitsInput, noOfProblemsInput){

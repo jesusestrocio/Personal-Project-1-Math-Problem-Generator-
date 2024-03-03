@@ -1,25 +1,29 @@
-/* Styles Media Query For Desktop Low End 1024×768 & 1920×1080*/
+/* Styles Media Query For Phones Low End  360 x 640 & 414 x 896 */
+@media(max-width: 360px) {
+body {
+    /* Default Margin was set to *8px */
+    margin: 3px;
+}
 
-/* Default Body Margin Set To 8px */
 h1 {
     margin: 0px;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
-    background-color: bisque;
-    padding: 10px;
+    background-color: #008000;
+    padding: 2.5px;
 }
 
 .arithmetic-operations-button-container {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: red;
     flex-wrap: wrap; 
 }
 
 .addition, .subtraction, .multiplication, .division  {
-    height: 45px;
-    width: 150px;
-    font-size: 20px;
+    height: 20px;
+    width: 75px;
+    font-size: 10px;
     text-align: center;
     border: none;
     margin: 5px;
@@ -27,8 +31,8 @@ h1 {
 }
 
 .pop-up-window {
-    --height:230px;
-    --width:600px;
+    --height: 150px;
+    --width: 250px;
     height: var(--height);
     width: var(--width);
     border: 2px solid;
@@ -43,7 +47,7 @@ h1 {
 }
 
 h2.title-for-pop-up-form {
-    font-size: 30px;
+    font-size: 15px;
     margin: 5px;
     text-align: center;
 }
@@ -58,29 +62,28 @@ h2.title-for-pop-up-form {
 }
 
 .no-of-digits-label, .no-of-problems-label {
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
     margin: 0px;
-    margin-top: 12.5px;
+    margin-top: 6.5px;
     padding-right: 10px;
 
 }
 
 .no-of-digits-input , .no-of-problems-input {
-    height: 35px;
-    width: 150px;
-    font-size: 20px;
+    height: 12px;
+    width: 65px;
+    font-size: 8px;
     text-align: center;
     margin: 5px;
-    border: 0.2px;
-    border-style: solid;
+    border: 0.2px solid;
       
 }
 
 .generate-button, .close-button {
-    height: 40px;
-    width: 150px;
-    font-size: 20px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
     text-align: center;
     margin: 5px;
     padding: 5px;
@@ -109,24 +112,24 @@ h2.title-for-pop-up-form {
 .stopwatch-container{
     background-color: orange;
     display: grid;
-    grid-template-columns: 400px auto auto auto;
+    grid-template-columns: 100px auto auto auto;
     justify-content: center;
     justify-items: center;
 
 }
 
 .stopwatch-timer {
-    font-size: 30px;
+    font-size: 15px;
     margin: 8px;
 }
 
 .stopwatch-start-button, 
 .stopwatch-stop-button, 
 .stopwatch-reset-button {
-    font-size: 20px;
+    font-size: 10px;
     margin-left: 20px;
-    height: 40px;
-    width: 150px;
+    height: 20px;
+    width: 50px;
     margin: 5px;
 }
 
@@ -150,8 +153,8 @@ h2.title-for-pop-up-form {
     background-color: khaki;
     border: 5px solid chartreuse;
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    margin: 20px;
+    grid-template-columns: repeat(2, auto);
+    margin: 15px;
     border: 2px solid #04AA6D;
     justify-items: center;
 
@@ -163,14 +166,14 @@ h2.title-for-pop-up-form {
     border-style: solid;
     border-color: white;
     height: auto;
-    width: 150px;
-    padding-top:30px ; 
-    padding-bottom: 30px;
+    width: 100px;
+    padding-top:15px ; 
+    padding-bottom: 15px;
 }
 
 .firstNumber, .secondNumber, .symbol {
     background-color: aquamarine;
-    font-size: 25px;
+    font-size: 12.5px;
     text-align: center;
 }
 .userInputeSection , .userInputButtonSection {
@@ -180,10 +183,10 @@ h2.title-for-pop-up-form {
 }
 
 .userInputValue, .userInputValidationButton {
-    height: 25px;
-    width: 120px;
+    height: 15px;
+    width: 60px;
     background-color: white;
-    font-size: 20px;
+    font-size: 10px;
     padding: 0px;
     margin: 5px;
     border: 1px solid yellow;
@@ -199,7 +202,9 @@ h2.title-for-pop-up-form {
 }
 
 .check-all-answers-button {
-    font-size: 25px;
-    height: 40px ;
-    width: 200px ;
+    font-size: 15px;
+    height: 30px ;
+    width: 90px ;
+}
+
 }
