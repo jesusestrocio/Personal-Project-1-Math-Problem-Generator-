@@ -1,5 +1,5 @@
 /* Styles Media Query For Phones Low End  360 x 640 & 414 x 896 */
-@media(max-width: 360px) {
+@media (max-width: 414px) {
 body {
     /* Default Margin was set to *8px */
     margin: 3px;
@@ -9,7 +9,7 @@ h1 {
     margin: 0px;
     font-size: 20px;
     text-align: center;
-    background-color: #008000;
+    background-color: violet;
     padding: 2.5px;
 }
 
@@ -17,7 +17,7 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: red;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .addition, .subtraction, .multiplication, .division  {
@@ -129,27 +129,11 @@ h2.title-for-pop-up-form {
 .stopwatch-stop-button, 
 .stopwatch-reset-button {
     font-size: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 20px;
     width: 50px;
     margin: 5px;
 }
-
-
-/* <div class="time-and-question-container" id="time-and-question-container-id">
-<div class="timer-container">
-  <div class="stopwatch-container" id="sw" >
-    <div class="stopwatch-timer">00:00:00</div>
-    <button class="stopwatch-start-button" onclick="startStopwatch()">Start</button>
-    <button class="stopwatch-stop-button" onclick="stopStopwatch()">Stop</button>
-    <button class="stopwatch-reset-button" onclick="resetStopwatch()">Reset</button>
-    </div>
-</div>
-<div class="questions-main-container">
-
-</div>
-<div><button>Check All</button></div>
-</div> */
 
 .questions-main-container {
     background-color: khaki;

@@ -97,7 +97,7 @@ h2.title-for-pop-up-form {
 
 .time-and-question-container{
     background-color: salmon;
-    height: 859px;
+    height: auto;
 }
 
 #time-and-question-container-id {
